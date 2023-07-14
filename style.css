@@ -1,0 +1,228 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+html,body{
+    display: inline;
+    max-width:1000px;
+    min-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+         
+}
+
+
+/*article{
+    background-color:#ffeee4;
+    max-height: 100%;
+    min-width: none;
+
+}
+
+/* COMEÇO MENU*/
+
+
+
+.menu{
+    
+    list-style:none;
+    padding:30px;  
+    /*box-shadow:1px 1px 5px #3E5773;*/
+    background-color: #b1938434;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+   
+ 
+    
+}
+
+.menu li{
+    display:inline;  
+    font-size:1,5rem;
+    padding: 10px;
+    font-family:Caprasimo; 
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    max-width: 400px;
+    color: #b19384;
+}
+
+.menu a:hover{
+    background: #b193842d;
+    padding: 20px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+/*         FIM MENU         */
+
+.conteiner {
+    background-color:transparent;
+    display: flex;
+    padding: 15px;
+    /*margin: 190px 500px 26px 165px;*/
+    height: 500px;
+    width: auto;
+     
+}
+
+
+.conteiner h1{
+    font-size:3rem;
+    text-align:center;
+    background-color:transparent ;
+    padding:10px;
+    color:#b19384;
+      
+}
+
+.texto p{
+    
+    font-size: 1.2rem; 
+    text-align: justify;
+    margin: 2px;
+    line-height: 30px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.texto{
+   
+    padding: 20px;
+    text-align: center; 
+}
+
+
+.conteiner img {
+    border-radius: 150px;
+    /*padding: 30px;*/
+    width:264;
+    position: relative;
+    /*box-shadow: 0px 0px 15px #f4c8af ; */
+    padding: 0px;
+    line-height: 39px;
+    
+}
+
+.link img#lin {
+    width: 5vh;
+    position: absolute;
+    background-color: aliceblue;
+    border: 0px;
+    padding: 0px;
+    top: 50%;
+    left:273px;
+}
+
+
+.link img#giti {
+    width: 5vh;
+    position: absolute;
+    background-color: aliceblue;
+    border: 0px;
+    padding: 0px;
+    top: 50%;
+    left:225px;
+}
+
+.link img#curriculo {
+    width: 5vh;
+    position: absolute;
+    background-color: aliceblue;
+    border: 0px;
+    padding: 0px;
+    top: 50%;
+    left:170px;
+}
+
+
+
+/* COMEÇO DAS EXPERIENCIA*/
+
+.conteinertext {
+  display:contents;
+  padding: 0px;
+  width: 10px;
+  height:100px;
+  align-items: center;
+  margin: 0px;
+    
+}
+
+
+
+.cursos{
+    display:flexbox;
+    width: 500px;
+    height:290px;
+    margin:0px;
+     
+}
+.cursos li{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.mc{
+    display:flex;
+    margin-left: 239px;
+    font-size:18px ;
+    margin:0%;
+    padding: 0px;
+    
+}
+
+.mc1{
+    
+    margin-left: 235px;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: #b19384;
+ }
+ 
+.mh{
+    display:relative;
+    /*margin-left: 953px;
+    font-size:18px ;
+    margin: 0px;
+    padding: 0px;*/
+    height: 10px;
+    width: 100px;
+    margin-top: 50px;
+    left: 10px;
+    
+}
+
+.mh1{
+    
+   margin-left: 950px;
+   font-size: 40px;
+}
+
+.habilidades{
+    margin: 2px;
+}
+
+
+.habilidades li{
+   font-size: 20px;
+}
+
+
+    
+/* rodapé*/
+footer{
+    list-style:none;
+    padding:30px;  
+    /*box-shadow:1px 1px 5px #3E5773;*/
+    background-color: #b1938434;
+}
+
